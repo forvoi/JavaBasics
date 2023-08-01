@@ -7,6 +7,6 @@ public class Demo04 {
         System.out.println(flag);
 //        flag=100; //编译错误
         boolean flag1=3>2;
-        System.out.println(flag1);
+        System.out.println(flag1);//true
     }
 }
