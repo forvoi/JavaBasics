@@ -32,11 +32,14 @@ public class Demo07 {
         int a= scanner.nextInt();
         System.out.println(a%10+a/10%10+a/100%10);*/
 
+/*
 
         int a=1;
         //让a的值加1
-       /* a=a+1;
-        System.out.println(a);*/
+       */
+/* a=a+1;
+        System.out.println(a);*//*
+
         int b=a++;//先使用，后自加
         //1.先确定“a++”的值
         //2.a自加
@@ -57,6 +60,19 @@ public class Demo07 {
         int q=p++ + ++p;
         System.out.println(q);
         System.out.println(p);
+*/
 
+
+        //2.关系运算符
+        int x=5;
+        int y=3;
+        System.out.println(x>y);
+        System.out.println(x<y);
+        System.out.println(x==y);
+        System.out.println(x>=y);
+        System.out.println(x<=y);
+        System.out.println(x!=y);
+        //判断变量y是否是偶数
+        System.out.println(y % 2 == 0);
     }
 }
