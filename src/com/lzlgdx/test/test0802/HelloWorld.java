@@ -1,4 +1,4 @@
-package com.lzlgdx.test;
+package com.lzlgdx.test.test0802;
 
 public class HelloWorld {
     public static void main(String[] args) {
