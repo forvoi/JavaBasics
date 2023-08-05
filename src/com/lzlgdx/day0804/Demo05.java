@@ -1,6 +1,7 @@
 package com.lzlgdx.day0804;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 //冒泡排序
 public class Demo05 {
@@ -29,6 +30,12 @@ public class Demo05 {
 
         //sort排序
         Arrays.sort(arr);
+
+
+
+        //降序排列
+        Integer[] arr1={89,24,65,4};
+        Arrays.sort(arr1, Collections.reverseOrder());
         System.out.println("排序后："+Arrays.toString(arr));
     }
 }
