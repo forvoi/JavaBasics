@@ -1,7 +1,6 @@
 package com.lzlgdx.test.big;
 //五子棋游戏
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -54,7 +53,7 @@ public class Homework02 {
      * 定义棋盘
      * @return 棋盘
      */
-    public static char[][] drawChessboard(){
+    public static char[][]  drawChessboard(){
         char[][] chessBoard=new char[20][20];
         //定义100*100的棋盘
         for (int i = 0; i <20;i++){

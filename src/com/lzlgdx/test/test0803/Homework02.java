@@ -25,8 +25,8 @@ public class Homework02 {
         for(int i=1;i<=10;) {
 
             //系统随机获得两个随机数
-            number1=random.nextInt(1,10);
-            number2=random.nextInt(1,10);
+            number1=random.nextInt(10);
+            number2=random.nextInt(10);
             //显示数字
             System.out.println(number1+"+"+number2);
             answer=number1+number2;
